@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Chris Sutherland v1.0 Main Stylesheet
  *  08-13-2021
@@ -8,7 +8,7 @@
  *  01. webfonts and iconfonts
  *  02. base style override
  *  03. typography & general theme styles
- *  04. forms 
+ *  04. forms
  *  05. buttons
  *  06. other components
  *  07. common and reusable styles
@@ -30,22 +30,18 @@
  *  01. webfonts and iconfonts - (_document-setup)
  *
  * ------------------------------------------------------------------- */
-@import url("font-awesome/css/font-awesome.min.css");
-@import url("windows10/windows10.css");
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* montserrat */
 @font-face {
 	font-family: "montserrat-regular";
-	src: url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"), 
+	src: url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"),
 	     url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
 	font-family: "montserrat-bold";
-	src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"), 
+	src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"),
 	     url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
 	font-style: normal;
 	font-weight: normal;
@@ -54,21 +50,21 @@
 /* libre baskerville */
 @font-face {
 	font-family: "librebaskerville-regular";
-	src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"), 
+	src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"),
 	     url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
 	font-family: "librebaskerville-italic";
-	src: url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff2") format("woff2"), 
+	src: url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff2") format("woff2"),
 	     url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff") format("woff");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
 	font-family: "librebaskerville-bold";
-	src: url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff2") format("woff2"), 
+	src: url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff2") format("woff2"),
 	     url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff") format("woff");
 	font-style: normal;
 	font-weight: normal;
@@ -112,8 +108,8 @@ body {
 	padding: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * links - (_document-setup) 
+/* -------------------------------------------------------------------
+ * links - (_document-setup)
  * ------------------------------------------------------------------- */
 a,
 a:visited {
@@ -131,7 +127,7 @@ a:focus {
 }
 
 /* ===================================================================
- *  03. typography & general theme styles - (_document-setup.scss) 
+ *  03. typography & general theme styles - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
@@ -341,8 +337,8 @@ hr {
 	height: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * Lists - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * Lists - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 ol {
 	list-style: decimal;
@@ -392,8 +388,8 @@ dd {
 	margin: 0 0 0 2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * Spacing - (_document-setup)  
+/* -------------------------------------------------------------------
+ * Spacing - (_document-setup)
  * ------------------------------------------------------------------- */
 button,
 .button {
@@ -421,8 +417,8 @@ form,
 	margin-bottom: 3rem;
 }
 
-/* ------------------------------------------------------------------- 
- * floated image - (_document-setup)  
+/* -------------------------------------------------------------------
+ * floated image - (_document-setup)
  * ------------------------------------------------------------------- */
 img.pull-right {
 	margin: 1.5rem 0 0 3rem;
@@ -432,7 +428,7 @@ img.pull-left {
 	margin: 1.5rem 3rem 0 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * block grids paddings
  * ------------------------------------------------------------------- */
 .bgrid {
@@ -463,8 +459,8 @@ img.pull-left {
 	}
 }
 
-/* ------------------------------------------------------------------- 
- * tables - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * tables - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 table {
 	border-width: 0;
@@ -499,7 +495,7 @@ th:last-child, td:last-child {
 	-webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * pace.js styles - minimal  - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 .pace {
@@ -729,7 +725,7 @@ label > input[type="radio"] {
 }
 
 /* -----------------------------------------------------------
- * Style Placeholder Text  
+ * Style Placeholder Text
  * ----------------------------------------------------------- */
 ::-webkit-input-placeholder {
 	color: #ffffff;
@@ -899,7 +895,7 @@ input::-moz-focus-inner {
 /* ===================================================================
  *  06. other components - (_others.scss)
  *
- * ------------------------------------------------------------------- */ 
+ * ------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------
  * alert box - (_alert-box.scss)
@@ -940,11 +936,11 @@ input::-moz-focus-inner {
 	color: #bba31b;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * additional typo styles - (_additional-typo.scss)
  * ------------------------------------------------------------------- */
 
-/* drop cap 
+/* drop cap
  * ----------------------------------------------- */
 .drop-cap:first-letter {
 	float: left;
@@ -958,7 +954,7 @@ input::-moz-focus-inner {
 	color: #151515;
 }
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 .lining dt,
 .lining dd {
@@ -985,7 +981,7 @@ input::-moz-focus-inner {
 	margin-left: -0.2em;
 }
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 .dictionary-style dt {
 	display: inline;
@@ -1006,7 +1002,7 @@ input::-moz-focus-inner {
 	content: counter(definitions, decimal) ". ";
 }
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -1052,7 +1048,7 @@ input::-moz-focus-inner {
 	content: none;
 }
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1244,7 +1240,7 @@ input::-moz-focus-inner {
 }
 
 /* ===================================================================
- *  07. common and reusable styles 
+ *  07. common and reusable styles
  *
  * ------------------------------------------------------------------- */
 .section-intro {
@@ -1282,7 +1278,7 @@ input::-moz-focus-inner {
 	text-align: center;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * section-intro
  * ------------------------------------------------------------------- */
@@ -1359,8 +1355,8 @@ header .row {
 	position: relative;
 }
 
-/* ------------------------------------------------------------------- 
- * header logo - (_layout.css) 
+/* -------------------------------------------------------------------
+ * header logo - (_layout.css)
  * ------------------------------------------------------------------- */
 header .header-logo {
 	position: absolute;
@@ -1394,8 +1390,8 @@ header .header-logo a {
 	transition: all 0.5s ease-in-out;
 }
 
-/* ------------------------------------------------------------------- 
- * menu trigger - (_layout.css) 
+/* -------------------------------------------------------------------
+ * menu trigger - (_layout.css)
  * ------------------------------------------------------------------- */
 #header-menu-trigger {
 	display: block;
@@ -1418,11 +1414,11 @@ header .header-logo a {
 }
 
 #header-menu-trigger.opaque {
-	background-color: #000000;
+	background-color: #000;
 }
 
 #header-menu-trigger.opaque .header-menu-text {
-	background-color: #000000;
+	background-color: #000;
 }
 
 #header-menu-trigger:hover,
@@ -1474,8 +1470,8 @@ header .header-logo a {
 	bottom: -9px;
 }
 
-/* ------------------------------------------------------------------- 
- * off-canvas menu - (_layout.scss) 
+/* -------------------------------------------------------------------
+ * off-canvas menu - (_layout.scss)
  * ------------------------------------------------------------------- */
 #menu-nav-wrap {
 	background: #111111;
@@ -1624,9 +1620,9 @@ header .header-logo a {
 	-webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * header section 
+ * header section
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
 	header .header-logo {
@@ -1668,7 +1664,7 @@ header .header-logo a {
   align-items: center; /*/ does vertically center the desired content*/
   justify-content: center; /*/ horizontally centers single line items*/
   text-align: center; /*/ optional, but helps horizontally center text that breaks into multiple lines*/
-}  
+}
 
 @media only screen and (max-width:1200px) {
 .absolute-center {
@@ -1894,9 +1890,9 @@ padding-bottom:30%;
 
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * home section 
+ * home section
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
 	.home-content-tablecell h3 {
@@ -2065,21 +2061,21 @@ padding-bottom:30%;
 
 @media only screen and (max-width:960px) {
 	#statement h1 {
-	font-size: 5rem;	
+	font-size: 5rem;
 	}
 }
-	
+
 	@media only screen and (max-width:600px) {
 	#statement h1 {
-	font-size: 4rem;	
+	font-size: 4rem;
 	}
 }
-	
+
 		@media only screen and (max-width:420px) {
 	#statement h1 {
-	font-size: 4rem;	
+	font-size: 4rem;
 	}
-	
+
 	#statement h3 {
 	font-size: 2rem;
 	}
@@ -2220,9 +2216,9 @@ padding-bottom:30%;
 	padding-left: 8rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * about 
+ * about
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1024px) {
 	.about-profile {
@@ -2331,7 +2327,6 @@ padding-bottom:30%;
  * ------------------------------------------------------------------- */
 #skills {
 	background-color: #1f0e01;
-	background-image: url(../images/skills-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -2404,7 +2399,7 @@ padding-bottom:30%;
 	background: #f5f501;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * skills
  * ------------------------------------------------------------------- */
@@ -2541,7 +2536,7 @@ padding-bottom:30%;
 	margin-left: -40px;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * stats
  * ------------------------------------------------------------------- */
@@ -2560,7 +2555,6 @@ padding-bottom:30%;
  * ------------------------------------------------------------------- */
 #contact {
 	background-color: #111111;
-	background-image: url(../images/contact.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -2804,7 +2798,7 @@ padding-bottom:30%;
 
 }
 
-/* --------------------------------------------------------------- 
+/* ---------------------------------------------------------------
  * loader animation - (_layout.scss)
  * --------------------------------------------------------------- */
 .s-loader {
@@ -2900,7 +2894,7 @@ footer {
 	width: 60px;
 	line-height: 63px;
 	text-align: center;
-	background-color: #000000;
+	background-color: #000;
 	color: #888;
 	text-align: center;
 	text-transform: uppercase;
@@ -2927,7 +2921,7 @@ footer {
 	color: #FFFFFF;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * footer
  * ------------------------------------------------------------------- */

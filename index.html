@@ -19,12 +19,12 @@
 
 <!-- CSS
    ================================================== -->
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/vendor.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="preload" href="css/base.css" as="style">
-<link rel="preload" href="css/vendor.css" as="style">
-<link rel="preload" href="css/main.css" as="style">
+<link rel="stylesheet" href="css/base.min.css">
+<link rel="stylesheet" href="css/vendor.min.css">
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="preload" href="css/base.min.css" as="style">
+<link rel="preload" href="css/vendor.min.css" as="style">
+<link rel="preload" href="css/main.min.css" as="style">
 <link rel="preload" href="css/font-awesome/css/font-awesome.min.css" as="style">
 <link rel="preload" href="css/windows10/windows10.css" as="style">
 <link rel="canonical" href="https://www.chrissutherland.com.au/" />
@@ -128,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    ================================================== -->
 <main>
   <section id="splash">
-    <div class="absolute-center"><img src="images/Advertising-Agency-Chris-Sutherland-Australia.png" loading="lazy" width="77.25%" height="auto" alt="advertising-agency-logo-chris-sutherland-australia"/></div>
+    <div class="absolute-center"><img data-src="images/Advertising-Agency-Chris-Sutherland-Australia.png" class="lazy" width="77.25%" height="auto" alt="advertising-agency-logo-chris-sutherland-australia"/></div>
 
     <!-- end home-bottom-text -->
 
@@ -233,17 +233,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <section id="work-desktop">
     <div class="image-slideshow">
-      <div> <img src="images/eco-laundry.jpg" loading="lazy" alt="brand eco laundry" width="100%" height="auto"> </div>
-      <div> <img src="images/portfolio2.jpg" loading="lazy" alt="brand khmer kitchen" width="100%" height="auto"> </div>
-      <div> <img src="images/portfolio3.jpg" loading="lazy" alt="brand stanley security" width="100%" height="auto"> </div>
-      <div> <img src="images/eco-laundry.jpg" loading="lazy" alt="brand eco laundry room" width="100%" height="auto"> </div>
-      <div> <img src="images/apt-touring-26.jpg" loading="lazy" alt="brand image" width="100%" height="auto"> </div>
-      <div> <img src="images/dv.jpg" alt="advert dv image" loading="lazy" width="100%" height="auto"> </div>
-      <div> <img src="images/portfolio4.jpg" alt="catalogue jewellery" loading="lazy" width="100%" height="auto"> </div>
-      <div> <img src="images/fellowes.jpg" alt="online advertising image" loading="lazy" width="100%" height="auto"> </div>
-      <div> <img src="images/east-digital.jpg" alt="digital agency image" loading="lazy" width="100%" height="auto"> </div>
-      <div> <img src="images/portfolio.jpg" alt="brand design logo" loading="lazy" width="100%" height="auto"> </div>
-      <div> <img src="images/portfolio2.jpg" alt="cafe marketing image" loading="lazy" width="100%" height="auto"> </div>
+      <div> <img data-src="images/eco-laundry.jpg" data-srcset="images/eco-laundry.jpg 1920w, images/eco-laundrym.jpg 728w" class="lazy" alt="brand eco laundry" width="100%" height="auto"> </div>
+      <div> <img data-src="images/portfolio2.jpg" data-srcset="images/portfolio2.jpg 1920w, images/portfolio2m.jpg 728w" class="lazy" alt="brand khmer kitchen" width="100%" height="auto"> </div>
+      <div> <img data-src="images/portfolio3.jpg" data-srcset="images/portfolio3.jpg 1920w, images/portfolio3m.jpg 728w" class="lazy" alt="brand stanley security" width="100%" height="auto"> </div>
+      <div> <img data-src="images/eco-laundry.jpg" data-srcset="images/eco-laundry.jpg 1920w, images/eco-laundrym.jpg 728w" class="lazy" alt="brand eco laundry room" width="100%" height="auto"> </div>
+      <div> <img data-src="images/apt-touring-26.jpg" data-srcset="images/apt-touring-26.jpg 1920w, images/apt-touring-26m.jpg 768w" class="lazy" alt="brand image" width="100%" height="auto"> </div>
+      <div> <img data-src="images/dv.jpg" data-srcset="images/dv.jpg 1920w, images/dvm.jpg 728w" alt="advert dv image" class="lazy" width="100%" height="auto"> </div>
+      <div> <img data-src="images/portfolio4.jpg" data-srcset="images/portfolio4.jpg 1920w, images/portfolio4m.jpg 728w" alt="catalogue jewellery" class="lazy" width="100%" height="auto"> </div>
+      <div> <img data-src="images/fellowes.jpg" data-srcset="images/fellowes.jpg 1920w, images/fellowesm.jpg 728w" alt="online advertising image" class="lazy" width="100%" height="auto"> </div>
+      <div> <img data-src="images/east-digital.jpg" data-srcset="images/east-digital.jpg 1920w, images/east-digitalm.jpg 728w" alt="digital agency image" class="lazy" width="100%" height="auto"> </div>
+      <div> <img data-src="images/portfolio.jpg" data-srcset="images/portfolio.jpg 1920w, images/portfoliom.jpg 728w" alt="brand design logo" class="lazy" width="100%" height="auto"> </div>
+      <div> <img data-src="images/portfolio2.jpg" data-srcset="images/portfolio2.jpg 1920w, images/portfolio2m.jpg 728w" alt="cafe marketing image" class="lazy" width="100%" height="auto"> </div>
     </div>
   </section>
 
@@ -251,7 +251,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- skills
    ================================================== -->
-  <section id="skills">
+  <section id="skills" class="lazy" data-bg="/images/skills-bg.jpg">
     <div class="overlay"></div>
     <div class="gradient-overlay"></div>
     <div class="row wide">
@@ -290,7 +290,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- contact
    ================================================== -->
-  <section id="contact">
+  <section id="contact" class="lazy" data-bg="/images/contact.jpg">
     <div class=""></div>
     <div class="row narrow section-intro">
       <div class="col-twelve">
@@ -303,15 +303,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="col-twelve">
 
         <!-- form -->
-        <form action="info@chrissutherland.com.au" method="post" name="contactForm" id="contactForm">
+        <form action="mailto:info@chrissutherland.com.au" method="post" enctype="text/plain" name="contactForm" id="contactForm">
           <div class="form-field animate-this">
-            <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+            <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
           </div>
           <div class="form-field animate-this">
-            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+            <input name="mail" type="email" id="contactEmail" placeholder="Email" value="" required="">
           </div>
           <div class="form-field animate-this">
-            <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+            <textarea name="comment" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
           </div>
           <div class="form-field animate-this">
             <button class="submitform">Work With Us</button>
@@ -386,6 +386,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    ================================================== -->
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
+<script src="js/main.min.js"></script>
 </body>
 </html>
