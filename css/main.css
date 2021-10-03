@@ -1851,6 +1851,10 @@ padding-bottom:30%;
 	color: #FFFFFF !important;
 	-webkit-animation: vertical 3s ease infinite;
 	animation: vertical 3s ease infinite;
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* vertical animation */
