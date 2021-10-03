@@ -1411,6 +1411,7 @@ header .header-logo a {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	background-color: #000;
 }
 
 #header-menu-trigger.opaque {
@@ -1433,7 +1434,7 @@ header .header-logo a {
 	left: -75px;
 	width: 75px;
 	text-align: center;
-	background-color: transparent;
+	background-color: #000;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
