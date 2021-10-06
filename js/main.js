@@ -357,11 +357,10 @@
 		ssBackToTop();
 
 	})();
-
+	var lazyLoadInstance = new LazyLoad({
+		// Your custom settings go here
+	});
 	$(document).ready(function () {
-		var lazyLoadInstance = new LazyLoad({
-			// Your custom settings go here
-		});
 		lazyLoadInstance.update();
 		lazyload();
 	})
