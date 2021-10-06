@@ -362,6 +362,5 @@
 	});
 	$(document).ready(function () {
 		lazyLoadInstance.update();
-		lazyload();
 	})
 })(jQuery);
