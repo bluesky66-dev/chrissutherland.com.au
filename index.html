@@ -20,10 +20,12 @@
 <!-- CSS
    ================================================== -->
 <link rel="stylesheet" href="css/base.min.css">
-<link rel="stylesheet" href="css/vendor.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/lightgallery.css">
 <link rel="stylesheet" href="css/main.min.css">
 <link rel="preload" href="css/base.min.css" as="style">
-<link rel="preload" href="css/vendor.min.css" as="style">
+<link rel="preload" href="css/animate.min.css" as="style">
+<link rel="preload" href="css/lightgallery.css" as="style">
 <link rel="preload" href="css/main.min.css" as="style">
 <link rel="preload" href="css/font-awesome/css/font-awesome.min.css" as="style">
 <link rel="preload" href="css/windows10/windows10.css" as="style">
@@ -75,7 +77,9 @@
    ================================================== -->
 <main>
   <section id="splash">
-    <div class="absolute-center"><img data-src="images/Advertising-Agency-Chris-Sutherland-Australia.png" class="lazy" width="77.25%" height="auto" alt="advertising-agency-logo-chris-sutherland-australia"/></div>
+    <div class="absolute-center">
+      <img class="lazyload" data-src="images/Advertising-Agency-Chris-Sutherland-Australia.png" width="77.25%" height="auto" alt="advertising-agency-logo-chris-sutherland-australia"/>
+    </div>
 
     <!-- end home-bottom-text -->
 
@@ -340,6 +344,7 @@
 <script src="js/imagesLoaded.js"></script>
 <script src="js/lightgallery.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
 <script src="js/main.min.js"></script>
 </body>
 </html>
